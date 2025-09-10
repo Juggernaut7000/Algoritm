@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    // задача Begin1
+    // декларація змінних
+    double val_a, val_b, val_h, val_S;
+    
+    // введення змінної
+    cout <<"Enter val_a, val_b, val_h:\n";             
+    cin >> val_a >> val_b >> val_h;
+
+    // розрахунок результату
+    val_S = (val_a + val_b) /2 * val_h;
+    
+    // вивід результату
+    cout <<"S value:\t" << val_S << endl;
+    
+    return 0;
+}
